@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .imagem {
+            border: 2px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        p {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <div class="galeria">
+        <!-- Imagem 1 -->
+        <div class="imagem">
+            <img src="https://img.freepik.com/fotos-gratis/ao-por-do-sol-na-praia-tropical-e-no-mar-com-coqueiro_74190-1075.jpg?semt=ais_hybrid&w=740&q=80" alt="Paisagem de uma praia ao entardecer">
+            <p>Uma vista deslumbrante de uma praia ao entardecer, com o céu tingido de laranja e dourado.</p>
+        </div>
+        
+        <!-- Imagem 2 -->
+        <div class="imagem">
+            <img src="https://us.123rf.com/450wm/noppharat/noppharat1511/noppharat151100012/48009370-cachoeira-e-pedra-na-floresta-tropical-com-luz-solar-na-cachoeira-tone-pliw-kra-chong-national.jpg?ver=6" alt="Cachoeira em uma floresta tropical">
+            <p>Cachoeira em uma floresta tropical exuberante, com águas cristalinas caindo entre as pedras.</p>
+        </div>
+        
+        <!-- Imagem 3 -->
+        <div class="imagem">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_mUOM3RBvpfSl1aVQPFD8y_QJygdL9LbMg&s" alt="Montanhas cobertas de neve no inverno">
+            <p>Montanhas majestosas cobertas de neve durante o inverno, criando um cenário impressionante e sereno.</p>
+        </div>
+    </div>
+
+</body>
+</html>
